@@ -3,7 +3,14 @@ body {
 }
 
 .main-container {
+    width: 879px;
+    height: 460px;
     background-color: #283618;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -21,7 +28,19 @@ body {
     background-color: white;
 }
 
+.circle-invisble {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #606c38;
+}
 
+.container-bottom-right {
+    width: 233px;
+    height: 180px;
+    padding: 20px;
+    background-color: #283618;
+}
 
 /* #606c38
 #bc6c25 
