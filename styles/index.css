@@ -32,7 +32,6 @@ body {
 
 .container-top-left {
     align-content: flex-start;
-
 }
 
 .container-top-left__circle-bottom-last {
@@ -41,13 +40,18 @@ body {
 
 .container-top-middle {
     background-color: #bc6c25;
+    align-content: flex-end;
+    justify-content: flex-end;
 }
 
 .container-top-middle__circle-top-first {
     background-color: #bc6c25;
 }
 
-.container-top-right {}
+.container-top-right {
+    align-content: space-between;
+    justify-content: space-between;
+}
 
 .container-bottom-left {
     background-color: #bc6c25;
