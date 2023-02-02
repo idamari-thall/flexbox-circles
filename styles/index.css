@@ -55,9 +55,14 @@ body {
 
 .container-bottom-left {
     background-color: #bc6c25;
+    align-content: space-around;
+    justify-content: space-between;
 }
 
-.container-bottom-middle {}
+.container-bottom-middle {
+    align-content: center;
+    justify-content: center;
+}
 
 .container-bottom-right {
     width: 233px;
@@ -66,6 +71,8 @@ body {
     background-color: #283618;
 }
 
-/* #606c38
-#bc6c25 
-#283618 */
+/* 
+green #606c38
+brown #bc6c25 
+dark green #283618 
+*/
